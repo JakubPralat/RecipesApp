@@ -1,0 +1,5 @@
+<h1>Latest recipes</h1> 
+    <div style="float:left" (click)="onSelect(recipe)" *ngFor="let recipe of recipes">
+        <img class="image-recipe" src={{recipe.image}} style="margin:0px 20px 10px 0px"> 
+    </div>
+

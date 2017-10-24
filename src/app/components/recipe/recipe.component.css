@@ -1,0 +1,52 @@
+.left-content,
+.right-content {
+    width: 50%;
+    float: left;
+}
+
+.button {
+    margin-bottom: 3rem;
+}
+.form-container {
+    display:block;
+    width:90%;
+    padding:2em;
+    margin: 2em auto;
+    background:#fff;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-weight:bold;
+    font-family:'Muli';
+    font-size: 2em;
+}
+
+.alert {
+  background: #f2edda;
+  padding: 7px;
+  font-size: .9em;
+  margin-bottom: 20px;
+  display: inline-block;
+  animation: 2s alertAnim forwards;
+}
+.center-block {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@keyframes alertAnim {
+  from {
+      opacity:0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity:1;
+      transform: translateY(0);
+  }
+}
+
+.image-recipe{
+    max-height: 450px;
+    max-width: 450px;
+}
